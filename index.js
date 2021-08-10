@@ -10,7 +10,6 @@ app.get('/', (req, res) => {
     return res.render('bicycles')
 })
 app.get('/bicycle', (req, res) => {
-    const bicycle = bicycles.find(b => b.id === req.query.id)
     return res.render('overview')
 })
 
