@@ -18,4 +18,4 @@ app.get('/bicycle', (req, res) => {
     })
 })
 
-app.listen(4000, () => console.log('Running!'))
+listen(process.env.PORT || 4000)
